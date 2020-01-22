@@ -30,7 +30,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn flow && yarn lint:fix && yarn build",
+      "pre-commit": "yarn lint:flow && yarn build",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
