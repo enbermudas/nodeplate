@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "build": "babel src/ -d dist/",
-    "coveralls": "yarn test --coverage --coverageReporters=text-lcov | coveralls",
+    "coveralls": "yarn test --coverage && cat ./coverage/lcov.info | coveralls",
     "lint": "eslint 'src/**/*.js'",
     "lint:fix": "yarn run lint --fix",
     "lint:flow": "yarn run lint:fix && flow",
