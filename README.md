@@ -4,3 +4,13 @@
 [![Coverage Status](https://coveralls.io/repos/github/enbermudas/nodeplate/badge.svg?branch=master)](https://coveralls.io/github/enbermudas/nodeplate?branch=master)
 
 Nothing but my very own nodejs boilerplate
+
+## :sparkles: Features
+
+- Tests with Jest
+- Continuous integration with Travis CI
+- Code coverage with Coveralls
+- ECMAScript 2015+ code compiling with Babel
+- Linting with eslint and Airbnb style guide
+- Static type checking with Flow
+- Commit message linting with Commitlint
