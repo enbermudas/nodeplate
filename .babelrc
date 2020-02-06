@@ -1,5 +1,16 @@
 {
   "presets": [
-    "@babel/preset-flow"
+    "@babel/preset-flow",
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": true
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    "transform-flow-strip-types"
   ]
 }

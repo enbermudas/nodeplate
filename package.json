@@ -13,16 +13,18 @@
     "lint:fix": "yarn run lint --fix",
     "lint:flow": "yarn run lint:fix && flow",
     "prepublish": "yarn run build",
-    "test": "jest --config jest.config.js"
+    "test": "jest --config jest.config.js --detectOpenHandles"
   },
-  "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.8.3",
     "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
     "@babel/preset-flow": "^7.8.3",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "babel-eslint": "^10.0.3",
+    "babel-jest": "^25.1.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
     "coveralls": "^3.0.9",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
