@@ -20,8 +20,6 @@
     "@babel/core": "^7.8.3",
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-flow": "^7.8.3",
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^25.1.0",
     "babel-plugin-transform-flow-strip-types": "^6.22.0",
@@ -31,14 +29,7 @@
     "eslint-plugin-flowtype": "^4.6.0",
     "eslint-plugin-import": "^2.20.0",
     "flow-bin": "^0.116.1",
-    "husky": "^4.0.10",
     "jest": "^25.1.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn lint:flow",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   },
   "engines": {
     "node": ">= 8.0.0",
