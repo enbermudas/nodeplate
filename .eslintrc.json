@@ -1,6 +1,5 @@
 {
   "parser": "babel-eslint",
-  "plugins": ["flowtype"],
   "env": {
     "browser": true,
     "commonjs": true,
@@ -15,7 +14,7 @@
   "parserOptions": {
     "ecmaVersion": 2018
   },
-  "plugins": ["prettier"],
+  "plugins": ["flowtype", "prettier"],
   "rules": {
     "prettier/prettier": "error"
   }
