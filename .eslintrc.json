@@ -1,18 +1,13 @@
 {
   "parser": "babel-eslint",
-  "plugins": [
-    "flowtype"
-  ],
+  "plugins": ["flowtype"],
   "env": {
     "browser": true,
     "commonjs": true,
     "es6": true,
     "node": true
   },
-  "extends": [
-    "airbnb-base",
-    "plugin:flowtype/recommended"
-  ],
+  "extends": ["airbnb-base", "prettier", "plugin:prettier/recommended"],
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
@@ -20,10 +15,8 @@
   "parserOptions": {
     "ecmaVersion": 2018
   },
+  "plugins": ["prettier"],
   "rules": {
-    "comma-dangle": [
-      "error",
-      "never"
-    ]
+    "prettier/prettier": "error"
   }
 }
